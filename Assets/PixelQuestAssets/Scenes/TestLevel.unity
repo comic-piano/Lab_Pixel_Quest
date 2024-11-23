@@ -648,7 +648,7 @@ Transform:
   m_GameObject: {fileID: 639174301}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.51026666, y: 0.2620883, z: -0.040822983}
+  m_LocalPosition: {x: -1.9342445, y: 0.28164816, z: -0.040822983}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3275,7 +3275,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 3, y: 1}
+  m_Size: {x: 3, y: 1.1750973}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3290,7 +3290,7 @@ Transform:
   m_GameObject: {fileID: 2109479239}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7710707, y: 2.2597616, z: 9.959177}
+  m_LocalPosition: {x: 2.12, y: 0.59, z: 9.959177}
   m_LocalScale: {x: 15, y: 12, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3498,6 +3498,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1598755270610873222, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.291848
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598755270610873222, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.713975
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598755270610873222, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.2413
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598755270610873222, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4182
+      objectReference: {fileID: 0}
     - target: {fileID: 3117426988480730034, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
       propertyPath: coinSFX
       value: 
@@ -3525,6 +3541,22 @@ PrefabInstance:
     - target: {fileID: 8177227415980157264, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876226734821338570, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876226734821338570, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_Size.y
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876226734821338570, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae5129878cae0c444a5753b34b6e40d2, type: 3}
+    - target: {fileID: 8876226734821338570, guid: b855e4446e35b4d47978fa60cd14f465, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
